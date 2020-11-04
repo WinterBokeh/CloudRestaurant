@@ -10,54 +10,98 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c12e5d-59fa-4e32-83cd-8a8d2a67a147" name="Default Changelist" comment="" />
+    <list default="true" id="fb7bc08b-6716-4dae-8286-8fca11c76be3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tool/code.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CloudRestaurant.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/HelloController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/HelloController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/Config.go" beforeDir="false" afterPath="$PROJECT_DIR$/tool/Config.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
-  </component>
-  <component name="ProjectId" id="1iih9Oz6DaV7thlcll09oll2fwq" />
+  <component name="ProjectId" id="1jLetrAigcxCmsHLCcdPFUKOeLN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager">
-    <configuration name="go build CloudRestaurant" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="CloudRestaurant" />
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build cloudRestaurantDIY (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="cloudRestaurantDIY" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="CloudRestaurant" />
+      <package value="cloudRestaurantDIY" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build cloudRestaurantDIY" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="cloudRestaurantDIY" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="cloudRestaurantDIY" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="cloudRestaurantDIY" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="cloudRestaurantDIY" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build cloudRestaurantDIY" />
+      <item itemvalue="Go Build.go build cloudRestaurantDIY (1)" />
+      <item itemvalue="Go Build.go build main.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build CloudRestaurant" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build cloudRestaurantDIY (1)" />
+        <item itemvalue="Go Build.go build cloudRestaurantDIY" />
       </list>
     </recent_temporary>
   </component>
@@ -77,43 +121,61 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-  </component>
-  <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602396225248">
+    <state x="433" y="173" key="#Go_Modules" timestamp="1603588106918">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1602396225248" />
-    <state x="422" y="82" key="FileChooserDialogImpl" timestamp="1602502088970">
+    <state x="433" y="173" key="#Go_Modules/0.0.1280.680@0.0.1280.680" timestamp="1603588106918" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603594326177">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="422" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602502088970" />
-    <state width="1238" height="163" key="GridCell.Tab.0.bottom" timestamp="1602403748881">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603594326177" />
+    <state x="385" y="192" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603971273243">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602403748881" />
-    <state width="1238" height="163" key="GridCell.Tab.0.center" timestamp="1602403748881">
+    <state x="385" y="192" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1603971273243" />
+    <state width="1238" height="522" key="GridCell.Tab.0.bottom" timestamp="1604329700901">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602403748881" />
-    <state width="1238" height="163" key="GridCell.Tab.0.left" timestamp="1602403748881">
+    <state width="1238" height="522" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
+    <state width="1238" height="522" key="GridCell.Tab.0.center" timestamp="1604329700901">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602403748881" />
-    <state width="1238" height="163" key="GridCell.Tab.0.right" timestamp="1602403748881">
+    <state width="1238" height="522" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
+    <state width="1238" height="522" key="GridCell.Tab.0.left" timestamp="1604329700901">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602403748881" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1602502256300">
+    <state width="1238" height="522" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
+    <state width="1238" height="522" key="GridCell.Tab.0.right" timestamp="1604329700901">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1602502256300" />
+    <state width="1238" height="522" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1604330021814">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604330021814" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1603851509064">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603851509064" />
+    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603851502354">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1603851502354" />
+    <state x="306" y="5" width="672" height="678" key="search.everywhere.popup" timestamp="1604315983208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="306" y="5" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604315983208" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tool/Captcha.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

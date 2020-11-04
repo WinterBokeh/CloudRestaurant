@@ -6,27 +6,62 @@ import (
 	"os"
 )
 
-//从app.json文件中读取参数
 type Config struct {
-	AppName string `json:"app_name"`
-	AppHost string `json:"app_host"`
-	AppMode string `json:"app_mode"`
-	AppPort string `json:"app_port"`
+	AppName string     `json:"app_name"`
+	AppHost string     `json:"app_host"`
+	AppPort string     `json:"app_port"`
+	AppMode string     `json:"app-mode"`
+	Sms     SmsConfig  `json:"sms"`
+	Database DatabaseConfig `json:"database"`
+	Redis RedisConfig `json:"redis_config"`
 }
 
-var _cfg *Config = nil
+type RedisConfig struct {
+	Addr string `json:"addr"`
+	Port string `json:"port"`
+	Password string `json:"password"`
+	Db int `json:"db"`
+}
 
-func ParseConfig(path string) (*Config, error) {
+type SmsConfig struct {
+	SignName	 string `json:"sign_name"`
+	TemplateCode string `json:"template_code"`
+	RegionId	 string `json:"region_id"`
+	AppKey		 string `json:"app_key"`
+	AppSecret 	 string `json:"app_secret"`
+}
+
+type DatabaseConfig struct {
+	Driver   string `json:"driver"`
+	User 	 string `json:"user"`
+	Password string `json:"password"`
+	Host     string `json:"host"`
+	Port	 string `json:"port"`
+	DbName 	 string `json:"db_name"`
+	ShowSql	 bool   `json:"show_sql"`
+	Charset  string `json:"charset"`
+}
+
+var _cfg *Config
+
+func GetConfig() *Config {
+	return _cfg
+}
+
+func PraseConfig(path string) (*Config, error) {
 	file, err := os.Open(path)
 	if err != nil {
 		panic(err)
 	}
 	defer file.Close()
 
-	reader := bufio.NewReader(file)
-	decoder := json.NewDecoder(reader)           //new一个解析器
-	if err = decoder.Decode(&_cfg); err != nil { //使用decode把json中的参数赋值给_cfg，记得加取地址符
+	read := bufio.NewReader(file)
+	decoder := json.NewDecoder(read)
+	err = decoder.Decode(&_cfg)
+	if err != nil {
 		return nil, err
 	}
 	return _cfg, nil
 }
+
+
