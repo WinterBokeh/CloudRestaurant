@@ -11,16 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb7bc08b-6716-4dae-8286-8fca11c76be3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tool/code.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CloudRestaurant.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/param/LoginByNP.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/HelloController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/HelloController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/Config.go" beforeDir="false" afterPath="$PROJECT_DIR$/tool/Config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/MemberController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MemberController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/MemberDao.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/MemberDao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/MemberService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/MemberService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/Captcha.go" beforeDir="false" afterPath="$PROJECT_DIR$/tool/Captcha.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/code.go" beforeDir="false" afterPath="$PROJECT_DIR$/tool/code.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jLetrAigcxCmsHLCcdPFUKOeLN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -166,16 +165,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="306" y="5" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604315983208" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/tool/Captcha.go</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -17,7 +17,38 @@ func (mc *MemberController) Router(engine *gin.Engine) {
 
 	engine.GET("/api/captcha", mc.captcha)
 
-	engine.POST("/api/vertifycha", mc.vertifycha)
+//	engine.POST("/api/vertifycha", mc.vertifycha)
+	engine.POST("/api/login_pwd", mc.login)
+}
+
+func (mc *MemberController) login(ctx *gin.Context) {
+	//获取表单，解析表单
+	var loginByNP  param.NameAndPassword
+	err := tool.Decode(ctx.Request.Body, &loginByNP)
+	if err != nil {
+		tool.Faild(ctx, "参数解析失败")
+		return
+	}
+//	fmt.Println(loginByNP.UserName, "阿巴阿巴")
+
+	//验证验证码
+
+	flag := tool.VertifyCaptcha(loginByNP.Id, loginByNP.Code)
+	if flag == false {
+		tool.Faild(ctx, "验证码错误")
+		return
+	}
+
+	//插入数据库
+
+	us := service.MemberService{}
+	member := us.PwdLogin(loginByNP)
+
+	if member.Id != 0 {
+		tool.Success(ctx, &member)
+		return
+	}
+	tool.Faild(ctx, "密码错误")
 }
 
 func (mc *MemberController) vertifycha(ctx *gin.Context) {

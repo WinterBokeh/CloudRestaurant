@@ -42,7 +42,6 @@ func GenerateCaptcha(ctx *gin.Context) {
 	}
 
 
-
 	captchaId, captchaInterfaceInstance := base64Captcha.GenerateCaptcha("", parameters)
 	base64blob := base64Captcha.CaptchaWriteToBase64Encoding(captchaInterfaceInstance)
 

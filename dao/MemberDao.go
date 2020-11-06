@@ -19,6 +19,14 @@ func (orm *MemberDao)ValidateSmsCode(phone, code string) *model.SmsCode {
 	return &sms
 }
 
+func (orm *MemberDao) Query(name string) *model.Member {
+	var member model.Member
+	if _, err := orm.Where(" user_name = ? ", name).Get(&member); err != nil {
+		fmt.Println(err.Error())
+	}
+	return &member
+}
+
 func (orm *MemberDao) QueryByPhone(phone string) *model.Member {
 	var member model.Member
 	if _, err := orm.Where(" mobile = ? ", phone).Get(&member); err != nil {

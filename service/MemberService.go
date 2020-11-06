@@ -15,11 +15,31 @@ import (
 
 type MemberService struct { }
 
+func (ms *MemberService) PwdLogin(nameAndPwd param.NameAndPassword) *model.Member {
+	md := dao.MemberDao{tool.DbEngine}
+	//检查是否已存在
+	member := md.Query(nameAndPwd.UserName)
+	if member.Id != 0 {
+		if member.Password != nameAndPwd.Password {
+			return new(model.Member)
+		}
+		return member
+	}
+
+	user := model.Member{}
+	user.UserName = nameAndPwd.UserName
+	user.Password = nameAndPwd.Password
+	user.RegisterTime = time.Now().Unix()
+
+	user.Id = md.InsertMember(user)
+	return &user
+}
 
 //业务逻辑
 func (ms *MemberService) SmsLogin(loginparam param.SmsLoginParam) *model.Member {
 	md := dao.MemberDao{tool.DbEngine}
 //	fmt.Println(loginparam.Phone, "hahahahaha")
+	//从sms_code查看给出的code和phone是否匹配
 	sms := md.ValidateSmsCode(loginparam.Phone, loginparam.Code)
 	if sms.Id == 0 {
 		return nil
