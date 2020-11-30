@@ -10,6 +10,17 @@ type MemberDao struct {
 	*tool.Orm
 }
 
+//更新头像字段
+func (orm *MemberDao) UpdateMemberAvatar(userId int64, fileName string) int64 {
+	member := model.Member{Avatar: fileName}
+	result, err := orm.Where(" id = ? ", userId).Update(&member)
+	if err != nil {
+		fmt.Println(err.Error())
+		return 0
+	}
+	return result
+}
+
 func (orm *MemberDao)ValidateSmsCode(phone, code string) *model.SmsCode {
 	var sms model.SmsCode
 

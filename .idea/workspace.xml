@@ -11,13 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb7bc08b-6716-4dae-8286-8fca11c76be3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/param/LoginByNP.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/SessionStore.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/MemberController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MemberController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/MemberDao.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/MemberDao.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/MemberService.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/MemberService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/Captcha.go" beforeDir="false" afterPath="$PROJECT_DIR$/tool/Captcha.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/code.go" beforeDir="false" afterPath="$PROJECT_DIR$/tool/code.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,22 +134,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="385" y="192" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1603971273243" />
-    <state width="1238" height="522" key="GridCell.Tab.0.bottom" timestamp="1604329700901">
+    <state width="1238" height="522" key="GridCell.Tab.0.bottom" timestamp="1604920235530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="522" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
-    <state width="1238" height="522" key="GridCell.Tab.0.center" timestamp="1604329700901">
+    <state width="1238" height="522" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604920235530" />
+    <state width="1238" height="522" key="GridCell.Tab.0.center" timestamp="1604920235530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="522" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
-    <state width="1238" height="522" key="GridCell.Tab.0.left" timestamp="1604329700901">
+    <state width="1238" height="522" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604920235530" />
+    <state width="1238" height="522" key="GridCell.Tab.0.left" timestamp="1604920235530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="522" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
-    <state width="1238" height="522" key="GridCell.Tab.0.right" timestamp="1604329700901">
+    <state width="1238" height="522" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604920235530" />
+    <state width="1238" height="522" key="GridCell.Tab.0.right" timestamp="1604920235530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="522" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604329700901" />
+    <state width="1238" height="522" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604920235530" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1604330021814">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -161,9 +162,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1603851502354" />
-    <state x="306" y="5" width="672" height="678" key="search.everywhere.popup" timestamp="1604315983208">
+    <state x="307" y="6" width="672" height="678" key="search.everywhere.popup" timestamp="1605008066138">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="306" y="5" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604315983208" />
+    <state x="307" y="6" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605008066138" />
   </component>
 </project>

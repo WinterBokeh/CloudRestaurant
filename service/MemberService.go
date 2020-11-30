@@ -15,6 +15,16 @@ import (
 
 type MemberService struct { }
 
+func (ms *MemberService) UploadAvatar(userId int64, fileName string) string {
+	memberDao := dao.MemberDao{tool.DbEngine}
+	result := memberDao.UpdateMemberAvatar(userId, fileName)
+	if result == 0 {
+		return ""
+	}
+
+	return fileName
+}
+
 func (ms *MemberService) PwdLogin(nameAndPwd param.NameAndPassword) *model.Member {
 	md := dao.MemberDao{tool.DbEngine}
 	//检查是否已存在

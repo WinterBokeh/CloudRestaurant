@@ -25,6 +25,8 @@ func main() {
 
 	app.Use(Cors())
 
+	tool.InitSession(app)
+
 	registRouter(app)
 
 	app.Run(config.AppHost + ":" + config.AppPort)
